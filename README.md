@@ -1,73 +1,85 @@
-Leaflet Earthquake Visualization
+# Leaflet Earthquake Visualization
 
-Overview
+## Overview
 
-This project is a visualization tool for earthquake data using Leaflet.js and D3.js, displaying real-time earthquake data from the USGS GeoJSON Feed. The application plots earthquakes on an interactive map, with marker size corresponding to earthquake magnitude and color indicating depth.
+​<light>This project is a visualization tool for earthquake data using Leaflet.js and D3.js.</light>​ It displays real-time earthquake data from the USGS GeoJSON Feed. The application plots earthquakes on an interactive map, with marker size corresponding to earthquake magnitude and color indicating depth.
 
-Project Structure
+## Project Structure
+
+
+## Features
+
+<p>-   **Earthquake Data Visualization:** Displays earthquake locations with circle markers.
+-   **Marker Scaling:** The size of each marker represents the magnitude of the earthquake.
+-   **Color Gradient:** Depth is represented using a color scale from green (shallow) to red (deep).
+-   **Popups:** Clicking on a marker reveals earthquake details (magnitude, depth, location).
+-   **Layer Control:** Users can toggle different base maps and overlays.
+-   **Legend:** A color-coded legend provides context for depth values.</p>
+
+## Technologies Used
+
+<p>-   Leaflet.js - Interactive maps.
+-   D3.js - Fetch and parse GeoJSON data.
+-   HTML/CSS/JavaScript - Frontend structure and styling.</p>
+
+## How to Run
+
+<p>1.  Clone this repository:</p>
 
 leaflet-challenge/
+
 │── Leaflet-Part-1/
+
 │   ├── index.html
+
 │   ├── static/
+
 │   │   ├── css/
+
 │   │   │   ├── style.css
+
 │   │   ├── js/
+
 │   │   │   ├── logic.js
 
-Features
+2.  Navigate to the `Leaflet-Part-1` directory:
 
-Earthquake Data Visualization: Displays earthquake locations with circle markers.
+bash
 
-Marker Scaling: The size of each marker represents the magnitude of the earthquake.
+    git clone https://github.com/your-username/leaflet-challenge.git
 
-Color Gradient: Depth is represented using a color scale from green (shallow) to red (deep).
+    
 
-Popups: Clicking on a marker reveals earthquake details (magnitude, depth, location).
+3.  Open `index.html` in a web browser.
 
-Layer Control: Users can toggle different base maps and overlays.
+## File Descriptions
 
-Legend: A color-coded legend provides context for depth values.
+-   `index.html` - The main webpage structure.
 
-Technologies Used
+-   `style.css` - Styling for the map and legend.
 
-Leaflet.js - Interactive maps.
+-   `logic.js` - Contains JavaScript logic for fetching and displaying earthquake data.
 
-D3.js - Fetch and parse GeoJSON data.
+## Data Source
 
-HTML/CSS/JavaScript - Frontend structure and styling.
+Earthquake data is retrieved from the USGS GeoJSON Feed: [USGS Earthquake Data](https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php)
 
-How to Run
+## Example Map Screenshot
 
-Clone this repository:
+(Insert an image of the working visualization here)
 
-git clone https://github.com/your-username/leaflet-challenge.git
+## Future Enhancements
 
-Navigate to the Leaflet-Part-1 directory:
+-   Implement `Leaflet-Part-2` for additional data layers.
 
-cd leaflet-challenge/Leaflet-Part-1
+-   Add user filtering options (e.g., filter by magnitude or date).
 
-Open index.html in a web browser.
+-   Improve UI with more interactive elements.
 
-File Descriptions
+## Credits
 
-index.html - The main webpage structure.
+-   [USGS](https://www.usgs.gov/) for real-time earthquake data.
 
-style.css - Styling for the map and legend.
-
-logic.js - Contains JavaScript logic for fetching and displaying earthquake data.
-
-Data Source
-
-Earthquake data is retrieved from the USGS GeoJSON Feed:
-USGS Earthquake Data
-
-Credits
-
-USGS for real-time earthquake data.
-
-Leaflet and D3.js for mapping and data visualization.
+-   [Leaflet](https://leafletjs.com/) and [D3.js](https://d3js.org/) for mapping and data visualization.
 
 This project is part of a challenge to improve earthquake data visualization and awareness.
-
-
